@@ -25,7 +25,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/send"
+        android:text="@string/send_button_label"
         android:id="@+id/send_button"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
@@ -40,8 +40,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/recognize"
-        android:id="@+id/recognize_button"
+        android:text="@string/button_recog"
+        android:id="@+id/recog_button"
         android:layout_above="@+id/send_button"
         android:layout_centerHorizontal="true" />
     <ListView
@@ -50,15 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/connection_progress"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:layout_above="@+id/recognize_button" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Speak"
-        android:id="@+id/speak_button"
-        android:layout_above="@+id/input_text"
-        android:layout_toEndOf="@+id/recognize_button" />
+        android:layout_above="@+id/recog_button" />
 
 
 </RelativeLayout>
