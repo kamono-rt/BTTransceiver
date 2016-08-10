@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Transceiver</string>
+    <string name="input_text_hint">Message</string>
+    <string name="status_text_disconnected">Disconnected</string>
+    <string name="send">Send</string>
+    <string name="recognize">Recognize</string>
+    <string name="voice_recognize_prompt">Talk now</string>
+    <string name="BT_not_enabled">Bluetooth is not enabled.</string>
+    <string name="state_waiting">Listening for incoming connection</string>
+    <string name="state_connected">"Connected to "</string>
+    <string name="state_connecting">"Connecting to "</string>
+    <string name="state_disconnected">Disconnected</string>
+    <string name="title_activity_btscan">BTScanActivity</string>
+    <string name="not_support">This Device does not support Bluetooth.</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="stopped">Stopped</string>
+    <string name="scanning">Scanning</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="accept_connection">Accept Connection</string>
+    <string name="stop_listening">Stop Listening</string>
+    <string name="clear_conversion">Clear Conversion</string>
+    <string name="about">About</string>
+    <string name="connection_closed">Connection closed</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="message_empty">Message is empty</string>
+</resources>
